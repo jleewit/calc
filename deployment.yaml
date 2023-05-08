@@ -10,7 +10,7 @@ spec:
     spec:
       containers:
         - name: "calculator"
-          image: "image-registry.openshift-image-registry.svc:5000/nlilaramani-dev/calc"
+          image: "image-registry.openshift-image-registry.svc:5000/jayhyuklee-dev/calc"
           ports:
             - containerPort: 8080
               protocol: "TCP"
