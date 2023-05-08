@@ -23,5 +23,5 @@ spec:
   replicas: 2 
   strategy: 
     type: RollingUpdate
-  revisionHistoryLimit: 2 
+  revisionHistoryLimit: 5 
   minReadySeconds: 0 
